@@ -6,11 +6,10 @@ Ejecuta la comparación entre:
   - Algoritmo GENÉTICO MEJORADO (elitismo + torneo + mutación inteligente)
   
 Características principales:
-  - La versión original usa penalización por gap = -4 (como en tu código original).
-  - La versión mejorada usa penalización por gap = -2 (opción A solicitada).
+  - La versión original usa penalización por gap = -4.
+  - La versión mejorada usa penalización por gap = -2.
   - Ambas series se normalizan con el mismo offset para graficar en positivo.
   - Se valida la integridad de las secuencias (sin gaps) al final.
-  - Se guarda la gráfica como "comparacion_original_mejorado.png".
 Requisitos: módulo 'blosum' (BLOSUM(62)), matplotlib.
 """
 
@@ -391,4 +390,5 @@ if __name__ == "__main__":
     print(f" - Último fitness raw (original): {fitness_orig_raw[-1] if fitness_orig_raw else None}")
     print(f" - Último fitness raw (mejorado): {fitness_mej_raw[-1] if fitness_mej_raw else None}")
     print(f" - Offset aplicado para graficar en positivo: {offset}")
+
 
