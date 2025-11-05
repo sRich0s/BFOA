@@ -1,4 +1,6 @@
 """
+Que hace este programa?
+
 Ejecuta la comparación entre:
   - Algoritmo GENÉTICO ORIGINAL
   - Algoritmo GENÉTICO MEJORADO (elitismo + torneo + mutación inteligente)
@@ -389,3 +391,4 @@ if __name__ == "__main__":
     print(f" - Último fitness raw (original): {fitness_orig_raw[-1] if fitness_orig_raw else None}")
     print(f" - Último fitness raw (mejorado): {fitness_mej_raw[-1] if fitness_mej_raw else None}")
     print(f" - Offset aplicado para graficar en positivo: {offset}")
+
